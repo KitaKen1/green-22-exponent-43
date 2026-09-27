@@ -1,0 +1,11 @@
+name = "green22_exponent43_fc"
+version = "0.1.0"
+defaultTargets = ["Green22Exponent43FC"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "2424bb480c590237ffbb2cc831ae4cb8977e045a"
+
+[[lean_lib]]
+name = "Green22Exponent43FC"
